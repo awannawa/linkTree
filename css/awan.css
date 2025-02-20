@@ -85,7 +85,37 @@ section main a:hover {
 section main a i {
   font-size: 1.2em;
 }
-
+section #link-page {
+  margin-top: 2rem;
+  width: 100%;
+  gap: 10px;
+}
+section #link-page a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid white;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+section #link-page a:hover {
+  background-color: white;
+  color: #333;
+}
+#link-page #loading {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  font-size: 1em;
+  gap: 20px;
+}
+#link-page #loading img {
+  width: 20px;
+}
 section footer {
   background-color: white;
   width: 100%;
